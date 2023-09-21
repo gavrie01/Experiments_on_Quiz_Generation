@@ -1,0 +1,494 @@
+Entity: 1.1, Type: CARDINAL
+Entity: chapter 2, Type: LAW
+Entity: chapter 3, Type: LAW
+Entity: chapter 4, Type: LAW
+Entity: chapter 5, Type: LAW
+Entity: chapter 6, Type: LAW
+Entity: 2011, Type: DATE
+Entity: 2018, Type: DATE
+Entity: 29119, Type: CARDINAL
+Entity: 1.1.1, Type: CARDINAL
+Entity: 15, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 1.1.2, Type: CARDINAL
+Entity: chapter 4, Type: LAW
+Entity: 2.2.3, Type: CARDINAL
+Entity: chapter 3, Type: LAW
+Entity: 1.2, Type: CARDINAL
+Entity: 1.2.1, Type: CARDINAL
+Entity: 16, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 1.3, Type: CARDINAL
+Entity: the years, Type: DATE
+Entity: seven, Type: CARDINAL
+Entity: 1, Type: CARDINAL
+Entity: 1970, Type: DATE
+Entity: 2, Type: CARDINAL
+Entity: manna 
+1978, Type: PERSON
+Entity: chapter 4, Type: LAW
+Entity: 5.1.5, Type: CARDINAL
+Entity: 5.2, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 1981, Type: DATE
+Entity: chapter 3, Type: LAW
+Entity: chapter 4, Type: LAW
+Entity: 4, Type: CARDINAL
+Entity: 1975, Type: DATE
+Entity: 17, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.2, Type: CARDINAL
+Entity: 5, Type: CARDINAL
+Entity: 1990, Type: DATE
+Entity: 2.2.3, Type: CARDINAL
+Entity: 6, Type: CARDINAL
+Entity: 2011, Type: DATE
+Entity: 7, Type: CARDINAL
+Entity: 1981, Type: DATE
+Entity: 1.4, Type: CARDINAL
+Entity: section 5.1, Type: LAW
+Entity: 29119, Type: CARDINAL
+Entity: 1.4.1, Type: CARDINAL
+Entity: section 5.1, Type: LAW
+Entity: section 5.3, Type: LAW
+Entity: 5.2, Type: CARDINAL
+Entity: chapter 4, Type: LAW
+Entity: chapter 4, Type: LAW
+Entity: 18, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.1.5, Type: CARDINAL
+Entity: 5.5, Type: CARDINAL
+Entity: 1.4.2, Type: CARDINAL
+Entity: 1.4.3, Type: CARDINAL
+Entity: section 1.4.1, Type: LAW
+Entity: 19, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.4, Type: CARDINAL
+Entity: section 5.1, Type: LAW
+Entity: 5.2, Type: CARDINAL
+Entity: 5.3, Type: CARDINAL
+Entity: 5.2, Type: CARDINAL
+Entity: section 4.5.2, Type: LAW
+Entity: 5.5, Type: CARDINAL
+Entity: 1.4.4, Type: CARDINAL
+Entity: section 1.1.1, Type: LAW
+Entity: 20, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 1.4.5, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: 1.5, Type: CARDINAL
+Entity: 21, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 1.5.2, Type: DATE
+Entity: one, Type: CARDINAL
+Entity: 2.1, Type: CARDINAL
+Entity: 1.5.3, Type: CARDINAL
+Entity: salman 1995, Type: DATE
+Entity: 22, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2, Type: CARDINAL
+Entity: 130 minutes, Type: TIME
+Entity: chapter 2, Type: LAW
+Entity: 2.1, Type: CARDINAL
+Entity: fl-2.1.1, Type: ORG
+Entity: fl-2.1.2, Type: PRODUCT
+Entity: fl-2.1.3, Type: ORG
+Entity: fl-2.1.4, Type: NORP
+Entity: 2.2, Type: CARDINAL
+Entity: fl-2.2.2, Type: PERSON
+Entity: 2.3, Type: CARDINAL
+Entity: 23, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2.1, Type: CARDINAL
+Entity: atdd, Type: PERSON
+Entity: kanban, Type: ORG
+Entity: 2.1.1, Type: CARDINAL
+Entity: 4.4, Type: CARDINAL
+Entity: chapter 2.2.1, Type: LAW
+Entity: section 1.3, Type: LAW
+Entity: 24, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2.1.5, Type: CARDINAL
+Entity: 2.1.3, Type: CARDINAL
+Entity: atdd, Type: PERSON
+Entity: 1.3, Type: CARDINAL
+Entity: 2.1.5, Type: CARDINAL
+Entity: 2003, Type: DATE
+Entity: first, Type: ORDINAL
+Entity: 2011, Type: DATE
+Entity: 2.1.4, Type: CARDINAL
+Entity: kim, Type: PERSON
+Entity: 25, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2.1.5, Type: CARDINAL
+Entity: section 1.3, Type: LAW
+Entity: 26, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2.2, Type: CARDINAL
+Entity: sequential, Type: GPE
+Entity: one, Type: CARDINAL
+Entity: 2.2.1, Type: CARDINAL
+Entity: five, Type: CARDINAL
+Entity: 27, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: •, Type: PRODUCT
+Entity: 2.2.2, Type: CARDINAL
+Entity: four, Type: CARDINAL
+Entity: the iso/iec, Type: ORG
+Entity: 25010, Type: DATE
+Entity: 28, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 4.2, Type: CARDINAL
+Entity: 4.3, Type: CARDINAL
+Entity: four, Type: CARDINAL
+Entity: 2.2.3, Type: CARDINAL
+Entity: first, Type: ORDINAL
+Entity: ci, Type: PERSON
+Entity: 2.1.4, Type: CARDINAL
+Entity: 29, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 2.3, Type: CARDINAL
+Entity: iso/iec, Type: ORG
+Entity: 14764, Type: DATE
+Entity: 30, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 3, Type: CARDINAL
+Entity: 80 minutes, Type: TIME
+Entity: keywords 
+anomaly, Type: PERSON
+Entity: chapter 3, Type: LAW
+Entity: 3.1, Type: CARDINAL
+Entity: fl-3.1.1, Type: ORG
+Entity: 3.2, Type: CARDINAL
+Entity: fl-3.2.2, Type: PERSON
+Entity: fl-3.2.4, Type: PERSON
+Entity: 31, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 3.1, Type: CARDINAL
+Entity: chapter 6, Type: LAW
+Entity: 2.1.4, Type: CARDINAL
+Entity: 3.1.1, Type: CARDINAL
+Entity: 3rd, Type: ORDINAL
+Entity: 3.1.2, Type: CARDINAL
+Entity: section 1.3, Type: LAW
+Entity: 32, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 3.1.3, Type: CARDINAL
+Entity: section 1.1.1, Type: LAW
+Entity: 3.2, Type: CARDINAL
+Entity: 3.2.1, Type: CARDINAL
+Entity: 33, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 20246, Type: DATE
+Entity: one, Type: CARDINAL
+Entity: 20246, Type: DATE
+Entity: 3.2.3, Type: CARDINAL
+Entity: 34, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 20246, Type: DATE
+Entity: 3.2.4, Type: CARDINAL
+Entity: first, Type: ORDINAL
+Entity: 3.2.5, Type: CARDINAL
+Entity: 35, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: •, Type: CARDINAL
+Entity: 36, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 4, Type: CARDINAL
+Entity: 390 minutes, Type: TIME
+Entity: chapter 4, Type: LAW
+Entity: 4.1, Type: CARDINAL
+Entity: 4.2, Type: CARDINAL
+Entity: fl-4.2.2, Type: PERSON
+Entity: 4.3, Type: CARDINAL
+Entity: fl-4.3.3, Type: NORP
+Entity: 4.4, Type: CARDINAL
+Entity: fl-4.4.1, Type: ORG
+Entity: fl-4.4.3, Type: PERSON
+Entity: 4.5, Type: CARDINAL
+Entity: fl-4.5.1, Type: PERSON
+Entity: fl-4.5.2, Type: PERSON
+Entity: fl-4.5.3, Type: GPE
+Entity: 37, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 4.1, Type: CARDINAL
+Entity: 29119-4, Type: DATE
+Entity: 1990, Type: DATE
+Entity: craig 2002, Type: PERSON
+Entity: 2004, Type: DATE
+Entity: 2006, Type: DATE
+Entity: 2014, Type: DATE
+Entity: 2016, Type: DATE
+Entity: 2019, Type: DATE
+Entity: 4.2, Type: CARDINAL
+Entity: •, Type: PRODUCT
+Entity: •, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: 38, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 100%, Type: PERCENT
+Entity: at least one, Type: CARDINAL
+Entity: more than one, Type: CARDINAL
+Entity: 4.2.2, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: 2, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: 2, Type: CARDINAL
+Entity: 2002, Type: DATE
+Entity: 2011, Type: DATE
+Entity: two, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: 2, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 2006, Type: DATE
+Entity: 2019, Type: DATE
+Entity: three, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: 3, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 2, Type: CARDINAL
+Entity: 2, Type: CARDINAL
+Entity: 10, Type: CARDINAL
+Entity: 2, Type: CARDINAL
+Entity: 10, Type: CARDINAL
+Entity: 11, Type: CARDINAL
+Entity: 9, Type: CARDINAL
+Entity: 3, Type: CARDINAL
+Entity: 39, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 100%, Type: PERCENT
+Entity: one, Type: CARDINAL
+Entity: three, Type: CARDINAL
+Entity: 40, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 100%, Type: PERCENT
+Entity: 100%, Type: PERCENT
+Entity: 100%, Type: PERCENT
+Entity: only one, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: 4.3, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: •  branch, Type: PRODUCT
+Entity: 4.3.1, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: zero, Type: CARDINAL
+Entity: zero, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: chapter 4.3.2, Type: LAW
+Entity: 41, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 4.3.2, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: 100%, Type: PERCENT
+Entity: 100%, Type: PERCENT
+Entity: 100%, Type: PERCENT
+Entity: one, Type: CARDINAL
+Entity: watson 
+1996, Type: PERSON
+Entity: 1988, Type: DATE
+Entity: 4.4, Type: CARDINAL
+Entity: •, Type: CARDINAL
+Entity: 42, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: whittaker 2002, Type: DATE
+Entity: whittaker 2003, Type: DATE
+Entity: 2006, Type: DATE
+Entity: 1999, Type: DATE
+Entity: 2009, Type: DATE
+Entity: 2013, Type: DATE
+Entity: 4.4.3, Type: CARDINAL
+Entity: 1999, Type: DATE
+Entity: 10, Type: CARDINAL
+Entity: 1994, Type: DATE
+Entity: 43, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 4.5, Type: CARDINAL
+Entity: 4.2, Type: CARDINAL
+Entity: 4.3, Type: DATE
+Entity: 4.4, Type: CARDINAL
+Entity: three, Type: CARDINAL
+Entity: 2000, Type: DATE
+Entity: three, Type: CARDINAL
+Entity: 2003, Type: DATE
+Entity: 4.5.2, Type: DATE
+Entity: section 4.5.1, Type: LAW
+Entity: 4.5.3, Type: CARDINAL
+Entity: 44, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: two, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: 4.5.3, Type: CARDINAL
+Entity: atdd, Type: PERSON
+Entity: first, Type: ORDINAL
+Entity: 2009, Type: DATE
+Entity: first, Type: ORDINAL
+Entity: 4.2, Type: CARDINAL
+Entity: 4.3, Type: DATE
+Entity: 4.4, Type: CARDINAL
+Entity: first, Type: ORDINAL
+Entity: two, Type: CARDINAL
+Entity: 45, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5, Type: CARDINAL
+Entity: 335 minutes, Type: TIME
+Entity: chapter 5, Type: LAW
+Entity: 5.1, Type: CARDINAL
+Entity: fl-5.1.1, Type: PERSON
+Entity: fl-5.1.3, Type: PERSON
+Entity: fl-5.1.5, Type: ORG
+Entity: fl-5.1.6, Type: GPE
+Entity: 5.2, Type: CARDINAL
+Entity: fl-5.2.2, Type: PERSON
+Entity: fl-5.2.3, Type: PERSON
+Entity: fl-5.2.4, Type: PERSON
+Entity: 5.3, Type: CARDINAL
+Entity: fl-5.3.1, Type: PERSON
+Entity: fl-5.3.3, Type: NORP
+Entity: 5.4, Type: CARDINAL
+Entity: fl-5.4.1, Type: ORG
+Entity: 5.5, Type: CARDINAL
+Entity: fl-5.5.1, Type: GPE
+Entity: 46, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.1, Type: CARDINAL
+Entity: •, Type: PRODUCT
+Entity: 29119, Type: CARDINAL
+Entity: 5.1.2, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: section 4.5, Type: LAW
+Entity: 5.2, Type: CARDINAL
+Entity: 5.1.4, Type: CARDINAL
+Entity: 47, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.1.4, Type: CARDINAL
+Entity: four, Type: CARDINAL
+Entity: 3:2, Type: DATE
+Entity: 600, Type: CARDINAL
+Entity: 400, Type: CARDINAL
+Entity: three, Type: CARDINAL
+Entity: 48, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: three, Type: CARDINAL
+Entity: three, Type: CARDINAL
+Entity: b=18, Type: ORG
+Entity: 10±2, Type: CARDINAL
+Entity: between 8 and 12, Type: CARDINAL
+Entity: 6 + 4, Type: DATE
+Entity: 9 + 18, Type: DATE
+Entity: 6, Type: CARDINAL
+Entity: 10, Type: CARDINAL
+Entity: 18, Type: CARDINAL
+Entity: 6, Type: CARDINAL
+Entity: 2, Type: CARDINAL
+Entity: 2006, Type: DATE
+Entity: 2009, Type: DATE
+Entity: 5.1.5, Type: CARDINAL
+Entity: first, Type: ORDINAL
+Entity: first, Type: ORDINAL
+Entity: first, Type: ORDINAL
+Entity: first, Type: ORDINAL
+Entity: one, Type: CARDINAL
+Entity: first, Type: ORDINAL
+Entity: 5.1.6, Type: LOC
+Entity: 2009, Type: DATE
+Entity: three, Type: CARDINAL
+Entity: 49, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.1.7, Type: CARDINAL
+Entity: brian marick, Type: PERSON
+Entity: 2003, Type: DATE
+Entity: 2008, Type: DATE
+Entity: two, Type: CARDINAL
+Entity: four, Type: CARDINAL
+Entity: q4, Type: PERSON
+Entity: 5.2, Type: CARDINAL
+Entity: 31000, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: less than one, Type: CARDINAL
+Entity: 50, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: two, Type: CARDINAL
+Entity: two, Type: CARDINAL
+Entity: third, Type: ORDINAL
+Entity: 25010, Type: DATE
+Entity: third, Type: ORDINAL
+Entity: •, Type: PRODUCT
+Entity: •, Type: PRODUCT
+Entity: 51, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: •, Type: PRODUCT
+Entity: 2012, Type: DATE
+Entity: •, Type: PRODUCT
+Entity: 5.3, Type: CARDINAL
+Entity: 52, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 5.3.1, Type: CARDINAL
+Entity: 5.3.2, Type: CARDINAL
+Entity: daily, Type: DATE
+Entity: weekly, Type: DATE
+Entity: 53, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: •, Type: CARDINAL
+Entity: 29119, Type: CARDINAL
+Entity: 5.3.3, Type: CARDINAL
+Entity: 5.3.2, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: 5.4, Type: CARDINAL
+Entity: 54, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: cm, Type: PERSON
+Entity: cm, Type: PERSON
+Entity: 2.1.4, Type: CARDINAL
+Entity: 5.5, Type: CARDINAL
+Entity: one, Type: CARDINAL
+Entity: 55, Type: CARDINAL
+Entity: 74, Type: CARDINAL
+Entity: 2023-04-21, Type: DATE
+Entity: 29119, Type: CARDINAL
