@@ -1,61 +1,34 @@
- 
-
- 
- 
-
 Certified Tester 
-
- 
 
 Foundation Level Syllabus  
 
- 
-
 v4.0 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 International Software Testing Qualifications Board 
 
  
-
  
-
  
-
  
-
  
-
  
-
  
-
  
-
  
-
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 Copyright Notice 
-
- 
-
- 
 
 Copyright Notice © International Software Testing Qualifications Board (hereinafter called ISTQB®). 
 
@@ -91,14 +64,12 @@ copyright holders) and ISTQB® (as the future copyright holder) have agreed to t
 use:  
 
 •  Extracts, for non-commercial use, from this document may be copied if the source is acknowledged. 
-
 Any Accredited Training Provider may use this syllabus as the basis for a training course if the 
 authors and the ISTQB® are acknowledged as the source and copyright owners of the syllabus and 
 provided that any advertisement of such a training course may mention the syllabus only after official 
 accreditation of the training materials has been received from an ISTQB®-recognized Member Board.  
 
 •  Any individual or group of individuals may use this syllabus as the basis for articles and books, if the 
-
 authors and the ISTQB® are acknowledged as the source and copyright owners of the syllabus.  
 
 •  Any other use of this syllabus is prohibited without first obtaining the approval in writing of the 
@@ -109,33 +80,24 @@ ISTQB®.
 
 abovementioned Copyright Notice in the translated version of the syllabus. 
 
- 
-
 v4.0 
-
-© International Software Testing Qualifications Board 
 
 Page 2 of 74 
 
 2023-04-21 
 
- 
-Certified Tester 
+© International Software Testing Qualifications Board 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 Revision History 
-
- 
-
- 
-
- 
-
- 
 
 Version 
 
@@ -196,21 +158,17 @@ Page 3 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 Table of Contents 
-
- 
-
- 
-
- 
 
 Copyright Notice ...................................................................................................................................... 2 
 
@@ -308,17 +266,14 @@ Page 4 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 1.4.5.  Roles in Testing ..................................................................................................................... 21 
 
@@ -418,17 +373,13 @@ Page 5 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 4.2.2.  Boundary Value Analysis ....................................................................................................... 39 
 
@@ -514,21 +465,17 @@ Page 6 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 5.4. 
 
 5.5. 
-
- 
-
- 
 
 Configuration Management ........................................................................................................ 54 
 
@@ -552,15 +499,13 @@ Benefits and Risks of Test Automation ..........................................
 
 9.  Appendix B – Business Outcomes traceability matrix with Learning Objectives .......................... 64 
 
-Appendix C – Release Notes.................................................................................................... 70 
-
-Index ......................................................................................................................................... 72 
-
 10. 
 
 11. 
 
- 
+Appendix C – Release Notes.................................................................................................... 70 
+
+Index ......................................................................................................................................... 72 
 
 v4.0 
 
@@ -570,19 +515,16 @@ Page 7 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 Acknowledgements  
-
- 
-
- 
 
 This document was formally released by the General Assembly of the ISTQB® on 21 April 2023 
 
@@ -621,8 +563,6 @@ Reid, Surabhi Bellani, Szilard Szell, Tamás Gergely, Tamás Horváth, Tatiana S
 Parveen, Thaer Mustafa, Thomas Eisbrenner, Thomas Harms, Thomas Heller, Tobias Letzkus, Tomas 
 Rosenqvist, Werner Lieblang, Yaron Tsubery, Zhenlei Zuo and Zsolt Hargitai. 
 
- 
-
 ISTQB Working Group Foundation Level (Edition 2018): Klaus Olsen (chair), Tauhida Parveen (vice 
 chair), Rex Black (project manager), Eshraka Zakaria, Debra Friedenberg, Ebbe Munk, Hans Schaefer, 
 Judy McKay, Marie Walsh, Meile Posthuma, Mike Smith, Radoslaw Smilgin, Stephanie Ulrich, Steve 
@@ -643,17 +583,14 @@ Page 8 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 ISTQB Working Group Foundation Level (Edition 2010): Thomas Müller (chair), Rahul Verma, Martin 
 Klonk and Armin Beer. The core team thanks the review team (Rex Black, Mette Bruhn-Pederson, Debra 
@@ -669,8 +606,6 @@ ISTQB Working Group Foundation Level (Edition 2005): Thomas Müller (chair), Rex
 Dorothy Graham, Klaus Olsen, Maaret Pyhäjärvi, Geoff Thompson and Erik van Veenendaal. The core 
 team thanks the review team and all Member Boards for their suggestions. 
 
- 
-
 v4.0 
 
 Page 9 of 74 
@@ -679,19 +614,16 @@ Page 9 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 0. Introduction 
-
- 
-
- 
 
 0.1. Purpose of this Syllabus 
 
@@ -746,19 +678,15 @@ Page 10 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 0.4. Business Outcomes 
-
- 
-
- 
 
 This section lists the 14 Business Outcomes expected of a person who has achieved the Foundation 
 Level certification. 
@@ -848,17 +776,13 @@ Page 11 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 0.6. The Foundation Level Certificate Exam 
 
@@ -920,17 +844,13 @@ Page 12 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 0.11. 
 
@@ -997,17 +917,13 @@ Page 13 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 1. Fundamentals of Testing – 180 minutes 
 
@@ -1018,17 +934,15 @@ test case, test completion, test condition, test control, test data, test design
 implementation, test monitoring, test object, test objective, test planning, test procedure, test result, 
 testing, testware, validation, verification 
 
- 
-
 Learning Objectives for Chapter 1: 
 
 1.1  What is Testing? 
 
 FL-1.1.1 
 
-(K1) Identify typical test objectives  
-
 FL-1.1.2 
+
+(K1) Identify typical test objectives  
 
 (K2) Differentiate testing from debugging 
 
@@ -1036,13 +950,13 @@ FL-1.1.2
 
 FL-1.2.1 
 
-(K2) Exemplify why testing is necessary 
-
 FL-1.2.2 
 
-(K1) Recall the relation between testing and quality assurance 
-
 FL-1.2.3 
+
+(K2) Exemplify why testing is necessary 
+
+(K1) Recall the relation between testing and quality assurance 
 
 (K2) Distinguish between root cause, error, defect, and failure 
 
@@ -1056,21 +970,21 @@ FL-1.3.1
 
 FL-1.4.1 
 
-(K2) Summarize the different test activities and tasks 
-
 FL-1.4.2 
-
-(K2) Explain the impact of context on the test process 
 
 FL-1.4.3 
 
-(K2) Differentiate the testware that supports the test activities 
-
 FL-1.4.4 
 
-(K2) Explain the value of maintaining traceability 
-
 FL-1.4.5 
+
+(K2) Summarize the different test activities and tasks 
+
+(K2) Explain the impact of context on the test process 
+
+(K2) Differentiate the testware that supports the test activities 
+
+(K2) Explain the value of maintaining traceability 
 
 (K2) Compare the different roles in testing 
 
@@ -1078,17 +992,15 @@ FL-1.4.5
 
 FL-1.5.1 
 
-(K2) Give examples of the generic skills required for testing 
-
 FL-1.5.2 
-
-(K1) Recall the advantages of the whole team approach 
 
 FL-1.5.3 
 
-(K2) Distinguish the benefits and drawbacks of independence of testing 
+(K2) Give examples of the generic skills required for testing 
 
- 
+(K1) Recall the advantages of the whole team approach 
+
+(K2) Distinguish the benefits and drawbacks of independence of testing 
 
 v4.0 
 
@@ -1098,19 +1010,17 @@ Page 14 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 1.1. What is Testing? 
-
- 
-
- 
 
 Software systems are an integral part of our daily life. Most people have had experience with software 
 that did not work as expected. Software that does not work correctly can lead to many problems, 
@@ -1175,17 +1085,13 @@ Page 15 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 1.1.2.  Testing and Debugging 
 
@@ -1248,17 +1154,13 @@ Page 16 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 QC is a product-oriented, corrective approach that focuses on those activities supporting the achievement 
 of appropriate levels of quality. Testing is a major form of quality control, while others include formal 
@@ -1323,17 +1225,13 @@ Page 17 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 illustration of the Pareto principle. Predicted defect clusters, and actual defect clusters observed during 
 testing or in operation, are an important input for risk-based testing (see section 5.2). 
@@ -1397,17 +1295,13 @@ Page 18 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 also includes defining the test data requirements, designing the test environment and identifying any 
 other required infrastructure and tools. Test design answers the question “how to test?”. 
@@ -1473,17 +1367,13 @@ Page 19 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 work products. Proper configuration management (see section 5.4) ensures consistency and integrity of 
 work products. The following list of work products is not exhaustive: 
@@ -1495,7 +1385,6 @@ information about risk mitigation (see section 5.2). Test schedule, risk registe
 criteria are often a part of the test plan. 
 
 •  Test monitoring and control work products include: test progress reports (see section 5.3.2), 
-
 documentation of control directives (see section 5.3) and risk information (see section 5.2).  
 
 •  Test analysis work products include: (prioritized) test conditions (e.g., acceptance criteria, see 
@@ -1551,19 +1440,15 @@ Page 20 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 1.4.5.  Roles in Testing 
-
- 
-
- 
 
 In this syllabus, two principal roles in testing are covered: a test management role and a testing role. The 
 activities and tasks assigned to these two roles depend on factors such as the project and product 
@@ -1601,7 +1486,6 @@ While being generic, the following skills are particularly relevant for testers:
 especially the ones that are difficult to find) 
 
 •  Good communication skills, active listening, being a team player (to interact effectively with all 
-
 stakeholders, to convey information to others, to be understood, and to report and discuss 
 defects) 
 
@@ -1628,17 +1512,13 @@ Page 21 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 1.5.2.  Whole Team Approach 
 
@@ -1694,17 +1574,13 @@ Page 22 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 2. Testing Throughout the Software Development Lifecycle 
 
@@ -1716,8 +1592,6 @@ acceptance testing, black-box testing, component integration testing, component 
 testing, functional testing, integration testing, maintenance testing, non-functional testing, regression 
 testing, shift-left, system integration testing, system testing, test level, test object, test type, white-box 
 testing 
-
- 
 
 Learning Objectives for Chapter 2: 
 
@@ -1767,8 +1641,6 @@ FL-2.3.1
 
 (K2) Summarize maintenance testing and its triggers 
 
- 
-
 v4.0 
 
 Page 23 of 74 
@@ -1777,17 +1649,15 @@ Page 23 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 2.1. Testing in the Context of a Software Development Lifecycle 
 
@@ -1856,17 +1726,13 @@ Page 24 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Testers are involved in reviewing work products as soon as drafts of this documentation are 
 
@@ -1938,17 +1804,13 @@ Page 25 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Automation through a delivery pipeline reduces the need for repetitive manual testing 
 
@@ -2019,17 +1881,13 @@ Page 26 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  What was not successful and could be improved? 
 
@@ -2082,17 +1940,14 @@ activities can be performed at every test level.
 In this syllabus, the following five test levels are described: 
 
 •  Component testing (also known as unit testing) focuses on testing components in isolation. It 
-
 often requires specific support, such as test harnesses or unit test frameworks. Component 
 testing is normally performed by developers in their development environments. 
 
 •  Component integration testing (also known as unit integration testing) focuses on testing the 
-
 interfaces and interactions between components. Component integration testing is heavily 
 dependent on the integration strategy approaches like bottom-up, top-down or big-bang. 
 
 •  System testing focuses on the overall behavior and capabilities of an entire system or product, 
-
 often including functional testing of end-to-end tasks and the non-functional testing of quality 
 characteristics. For some non-functional quality characteristics, it is preferable to test them on a 
 complete system in a representative test environment (e.g., usability). Using simulations of sub-
@@ -2105,23 +1960,18 @@ Page 27 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 systems is also possible. System testing may be performed by an independent test team, and is 
 related to specifications for the system. 
 
 •  System integration testing focuses on testing the interfaces of the system under test and other 
-
 systems and external services . System integration testing requires suitable test environments 
 preferably similar to the operational environment. 
 
@@ -2184,17 +2034,13 @@ Page 28 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 they use the same functional tests, but check that while performing the function, a non-functional 
 constraint is satisfied (e.g., checking that a function performs within a specified time, or a function can be 
@@ -2254,19 +2100,15 @@ Page 29 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 2.3. Maintenance Testing 
-
- 
-
- 
 
 There are different categories of maintenance, it can be corrective, adaptive to changes in the 
 environment or improve performance or maintainability (see ISO/IEC 14764 for details), so maintenance 
@@ -2309,17 +2151,13 @@ Page 30 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 3. Static Testing – 80 minutes 
 
@@ -2327,8 +2165,6 @@ Keywords
 
 anomaly, dynamic testing, formal review, informal review, inspection, review, static analysis, static testing, 
 technical review, walkthrough 
-
- 
 
 Learning Objectives for Chapter 3: 
 
@@ -2368,8 +2204,6 @@ FL-3.2.5
 
 (K1) Recall the factors that contribute to a successful review 
 
- 
-
 v4.0 
 
 Page 31 of 74 
@@ -2378,19 +2212,17 @@ Page 31 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 3.1. Static Testing Basics 
-
- 
-
- 
 
 In contrast to dynamic testing, in static testing the software under test does not need to be executed. 
 Code, process specification, system architecture specification or other work products are evaluated 
@@ -2450,17 +2282,13 @@ Page 32 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Code defects can be detected using static analysis more efficiently than in dynamic testing, usually 
 resulting in both fewer code defects and a lower overall development effort. 
@@ -2530,17 +2358,13 @@ Page 33 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Frequent stakeholder feedback throughout the SDLC can prevent misunderstandings about requirements 
 and ensure that changes to requirements are understood and implemented earlier. This helps the 
@@ -2560,13 +2384,11 @@ process may be invoked a couple of times to complete the review for the entire w
 The activities in the review process are: 
 
 •  Planning. During the planning phase, the scope of the review, which comprises the purpose, the 
-
 work product to be reviewed, quality characteristics to be evaluated, areas to focus on, exit 
 criteria, supporting information such as standards, effort and the timeframes for the review, shall 
 be defined. 
 
 •  Review initiation. During review initiation, the goal is to make sure that everyone and everything 
-
 involved is prepared to start the review. This includes making sure that every participant has 
 access to the work product under review, understands their role and responsibilities and receives 
 everything needed to perform the review. 
@@ -2611,17 +2433,13 @@ Page 34 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Moderator (also known as the facilitator) – ensures the effective running of review meetings, 
 
@@ -2629,7 +2447,6 @@ including mediation, time management, and a safe review environment in which eve
 speak freely 
 
 •  Scribe (also known as recorder) – collates anomalies from reviewers and records review 
-
 information, such as decisions and new anomalies found during the review meeting 
 
 •  Reviewer – performs reviews. A reviewer may be someone working on the project, a subject 
@@ -2669,7 +2486,6 @@ anomalies. Reviewers might perform an individual review before the walkthrough, 
 required. 
 
 •  Technical Review. A technical review is performed by technically qualified reviewers and led by 
-
 a moderator. The objectives of a technical review are to gain consensus and make decisions 
 regarding a technical problem, but also to detect anomalies, evaluate quality and build confidence 
 in the work product, generate new ideas, and to motivate and enable authors to improve. 
@@ -2694,17 +2510,13 @@ Page 35 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Defining clear objectives and measurable exit criteria. Evaluation of participants should never be 
 
@@ -2740,17 +2552,13 @@ Page 36 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 4. Test Analysis and Design – 390 minutes 
 
@@ -2761,8 +2569,6 @@ analysis, branch coverage, checklist-based testing, collaboration-based test app
 coverage item, decision table testing, equivalence partitioning, error guessing, experience-based test 
 technique, exploratory testing, state transition testing, statement coverage, test technique, white-box test 
 technique 
-
- 
 
 Learning Objectives for Chapter 4: 
 
@@ -2833,8 +2639,6 @@ FL-4.5.3
 
 (K3) Use acceptance test-driven development (ATDD) to derive test cases 
 
- 
-
 v4.0 
 
 Page 37 of 74 
@@ -2843,17 +2647,15 @@ Page 37 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 4.1. Test Techniques Overview 
 
@@ -2917,17 +2719,13 @@ Page 38 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 A partition containing valid values is called a valid partition. A partition containing invalid values is called 
 an invalid partition. The definitions of valid and invalid values may vary among teams and organizations. 
@@ -2987,17 +2785,13 @@ Page 39 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 4.2.3.  Decision Table Testing  
 
@@ -3062,17 +2856,13 @@ Page 40 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 In all states coverage, the coverage items are the states. To achieve 100% all states coverage, test 
 cases must ensure that all the states are visited. Coverage is measured as the number of visited states 
@@ -3133,17 +2923,13 @@ Page 41 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 4.3.2.  Branch Testing and Branch Coverage  
 
@@ -3207,17 +2993,13 @@ Page 42 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  The types of errors the developers tend to make and the types of defects that result from these 
 
@@ -3282,17 +3064,13 @@ Page 43 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Some checklist entries may gradually become less effective over time because the developers will learn 
 to avoid making the same errors. New entries may also need to be added to reflect newly found high 
@@ -3357,17 +3135,13 @@ Page 44 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Allow accurate planning and estimation  
 
@@ -3412,8 +3186,6 @@ When captured in a format supported by a test automation framework, the develope
 test cases by writing the supporting code as they implement the feature described by a user story. The 
 acceptance tests then become executable requirements. 
 
- 
-
 v4.0 
 
 Page 45 of 74 
@@ -3422,17 +3194,14 @@ Page 45 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 5. Managing the Test Activities – 335 minutes 
 
@@ -3442,8 +3211,6 @@ defect management, defect report, entry criteria, exit criteria, product risk, p
 risk assessment, risk control, risk identification, risk level, risk management, risk mitigation, risk 
 monitoring, risk-based testing, test approach, test completion report, test control, test monitoring, test 
 plan, test planning, test progress report, test pyramid, testing quadrants 
-
- 
 
 Learning Objectives for Chapter 5: 
 
@@ -3521,8 +3288,6 @@ FL-5.5.1
 
 (K3) Prepare a defect report 
 
- 
-
 v4.0 
 
 Page 46 of 74 
@@ -3531,19 +3296,17 @@ Page 46 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
 
- 
-
- 
-
 5.1. Test Planning 
-
- 
-
- 
 
 5.1.1.  Purpose and Content of a Test Plan 
 
@@ -3576,7 +3339,6 @@ The typical content of a test plan includes:
 •  Risk register (e.g., product risks, project risks) 
 
 •  Test approach (e.g., test levels, test types, test techniques, test deliverables, entry criteria and 
-
 exit criteria, independence of testing, metrics to be collected, test data requirements, test 
 environment requirements, deviations from the organizational test policy and test strategy) 
 
@@ -3608,17 +3370,13 @@ Page 47 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 5.1.3.  Entry Criteria and Exit Criteria 
 
@@ -3682,17 +3440,13 @@ Page 48 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 software development. In Planning Poker, estimates are usually made using cards with numbers that 
 represent the effort size. 
@@ -3758,17 +3512,13 @@ Page 49 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 (component) tests, integration (component integration) tests, and end-to-end tests. Other test levels (see 
 section 2.2.1) can also be used. 
@@ -3796,7 +3546,6 @@ examples, user story tests, user experience prototypes, API testing, and simulat
 check the acceptance criteria and can be manual or automated. 
 
 •  Quadrant Q3 (business facing, critique the product). This quadrant contains exploratory testing, 
-
 usability testing, user acceptance testing. These tests are user-oriented and often manual. 
 
 •  Quadrant Q4 (technology facing, critique the product). This quadrant contains smoke tests and 
@@ -3836,17 +3585,13 @@ Page 50 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 These two factors express the risk level, which is a measure for the risk. The higher the risk level, the 
 more important is its treatment. 
@@ -3914,17 +3659,13 @@ Page 51 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Determine the scope of testing to be carried out  
 
@@ -3989,17 +3730,13 @@ Page 52 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Test completion collects data from completed test activities to consolidate experience, testware, and any 
 other relevant information. Test completion activities occur at project milestones such as when a test level 
@@ -4066,17 +3803,13 @@ Page 53 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 A test completion report is prepared during test completion, when a project, test level, or test type is 
 complete and when, ideally, its exit criteria have been met. This report uses test progress reports and 
@@ -4140,17 +3873,13 @@ Page 54 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 For a complex configuration item (e.g., a test environment), CM records the items it consists of, their 
 relationships, and versions. If the configuration item is approved for testing, it becomes a baseline and 
@@ -4221,17 +3950,13 @@ Page 55 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 •  Description of the failure to enable reproduction and resolution including the steps that detected 
 
@@ -4261,25 +3986,20 @@ Page 56 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-
  
-
  
-Certified Tester 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 6. Test Tools – 20 minutes 
 
 Keywords 
 
 test automation 
-
- 
 
 Learning Objectives for Chapter 6: 
 
@@ -4295,8 +4015,6 @@ FL-6.2.1
 
 (K1) Recall the benefits and risks of test automation 
 
- 
-
 v4.0 
 
 Page 57 of 74 
@@ -4305,17 +4023,15 @@ Page 57 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 6.1. Tool Support for Testing 
 
@@ -4360,7 +4076,6 @@ need analysis and mitigation.
 Potential benefits of using test automation include: 
 
 •  Time saved by reducing repetitive manual work (e.g., execute regression tests, re-enter the same 
-
 test data, compare expected results vs actual results, and check against coding standards)  
 
 •  Prevention of simple human errors through greater consistency and repeatability (e.g., tests are 
@@ -4373,7 +4088,6 @@ executed by a tool in the same order with the same frequency)
 humans to derive 
 
 •  Easier access to information about testing to support test management and test reporting (e.g., 
-
 statistics, graphs, and aggregated data about test progress, defect rates, and test execution 
 duration) 
 
@@ -4391,17 +4105,13 @@ Page 58 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Potential risks of using test automation include: 
 
@@ -4430,8 +4140,6 @@ development.
 
 standards. 
 
- 
-
 v4.0 
 
 Page 59 of 74 
@@ -4440,21 +4148,18 @@ Page 59 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 7.  References  
 
 Standards 
-
- 
-
- 
 
 ISO/IEC/IEEE 29119-1 (2022) Software and systems engineering – Software testing – Part 1: General 
 Concepts 
@@ -4519,17 +4224,13 @@ Page 60 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Gawande A. (2009) The Checklist Manifesto: How to Get Things Right, New York, NY: Metropolitan 
 Books 
@@ -4600,17 +4301,13 @@ Page 61 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 Enders, A. (1975) “An Analysis of Errors and Their Causes in System Programs,” IEEE Transactions on 
 Software Engineering 1(2), pp. 140-149 
@@ -4639,17 +4336,13 @@ Page 62 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 8.  Appendix A – Learning Objectives/Cognitive Level of 
 Knowledge 
@@ -4741,24 +4434,18 @@ Page 63 of 74
 
 © International Software Testing Qualifications Board 
 
+ 
+ 
+ 
+ 
+ 
 Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 9.  Appendix B – Business Outcomes traceability matrix with Learning Objectives 
 
 This section lists the number of Foundation Level Learning Objectives related to the Business Outcomes and the traceability between Foundation 
 Level Business Outcomes and Foundation Level Learning Objectives. 
- 
 
 Business Outcomes: Foundation Level 
 
@@ -4770,10 +4457,119 @@ BO2
 
 Understand fundamental concepts of software testing  
 
+F
+L
+-
+B
+O
+1
+
+6 
+
+F
+L
+-
+B
+O
+2
+
+22 
+
+F
+L
+-
+B
+O
+3
+
+F
+L
+-
+B
+O
+4
+
+F
+L
+-
+B
+O
+5
+
+F
+L
+-
+B
+O
+6
+
+F
+L
+-
+B
+O
+7
+
+F
+L
+-
+B
+O
+8
+
+F
+L
+-
+B
+O
+9
+
+F
+L
+-
+B
+O
+1
+0
+
+F
+L
+-
+B
+O
+1
+1
+
+F
+L
+-
+B
+O
+1
+2
+
+F
+L
+-
+B
+O
+1
+3
+
+F
+L
+-
+B
+O
+1
+4
+
 BO3 
 
 Identify the test approach and activities to be implemented depending on 
 the context of testing 
+
+6 
 
 BO4 
 
@@ -4814,12 +4610,255 @@ BO14
 
 Effectively report on test progress and quality  
 
- 
- 
+9 
+
+20 
+
+6 
+
+6 
+
+1 
+
+7 
+
+8 
+
+1 
+
+5 
+
+4 
+
+4 
 
 v4.0  
 
 © International Software Testing Qualifications Board 
+
+Page 64 of 74 
+
+2023-04-21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
+Foundation Level 
+
+Chapter/ 
+section/ 
+subsection 
+
+Chapter 1 
+
+Fundamentals of Testing 
+
+Learning objective 
+
+K-
+level 
 
 F
 L
@@ -4828,72 +4867,12 @@ B
 O
 1
 
- 
-
-6 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 F
 L
 -
 B
 O
 2
-
- 
-
- 
-
-22 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 F
 L
@@ -4902,72 +4881,12 @@ B
 O
 3
 
- 
-
- 
-
- 
-
-6 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 F
 L
 -
 B
 O
 4
-
- 
-
- 
-
- 
-
- 
-
-9 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 F
 L
@@ -4976,16 +4895,12 @@ B
 O
 5
 
- 
-
 F
 L
 -
 B
 O
 6
-
- 
 
 F
 L
@@ -4994,8 +4909,6 @@ B
 O
 7
 
- 
-
 F
 L
 -
@@ -5003,16 +4916,12 @@ B
 O
 8
 
- 
-
 F
 L
 -
 B
 O
 9
-
- 
 
 F
 L
@@ -5022,8 +4931,6 @@ O
 1
 0
 
- 
-
 F
 L
 -
@@ -5031,8 +4938,6 @@ B
 O
 1
 1
-
- 
 
 F
 L
@@ -5042,8 +4947,6 @@ O
 1
 2
 
- 
-
 F
 L
 -
@@ -5051,8 +4954,6 @@ B
 O
 1
 3
-
- 
 
 F
 L
@@ -5062,310 +4963,7 @@ O
 1
 4
 
- 
-
- 
-
- 
-
- 
-
- 
-
-20 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-6 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-6 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-7 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-8 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-5 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-4 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-4 
-
-Page 64 of 74 
-
-2023-04-21 
-
-Certified Tester 
-Foundation Level 
-
- 
-
- 
-
- 
-
-Chapter/ 
-section/ 
-subsection 
-
-Learning objective 
-
-Chapter 1 
-
-Fundamentals of Testing 
+BUSINESS OUTCOMES 
 
 1.1 
 
@@ -5431,155 +5029,17 @@ v4.0
 
 © International Software Testing Qualifications Board 
 
- 
+X 
 
- 
+X 
 
-BUSINESS OUTCOMES 
+X 
 
-K-
+X 
 
-level 
+X 
 
-F
-L
--
-B
-O
-1
-
- 
-
-F
-L
--
-B
-O
-2
-
- 
-
-F
-L
--
-B
-O
-3
-
- 
-
-F
-L
--
-B
-O
-4
-
- 
-
-F
-L
--
-B
-O
-5
-
- 
-
-F
-L
--
-B
-O
-6
-
- 
-
-F
-L
--
-B
-O
-7
-
- 
-
-F
-L
--
-B
-O
-8
-
- 
-
-F
-L
--
-B
-O
-9
-
- 
-
-F
-L
--
-B
-O
-1
-0
-
- 
-
-F
-L
--
-B
-O
-1
-1
-
- 
-
-F
-L
--
-B
-O
-1
-2
-
- 
-
-F
-L
--
-B
-O
-1
-3
-
- 
-
-F
-L
--
-B
-O
-1
-4
-
- 
-
- 
- 
-
- 
-
- 
-
- 
+X 
 
 K1 
 
@@ -5603,37 +5063,9 @@ K2
 
 K2 
 
- 
-
- 
-
 X 
 
- 
-
- 
-
 X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 X 
 
@@ -5643,428 +5075,249 @@ X
 
 X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 Page 65 of 74 
 
 2023-04-21 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 1.5 
 
@@ -6138,6 +5391,72 @@ Maintenance Testing
 
 Summarize maintenance testing and its triggers 
 
+K2 
+
+K1 
+
+K2 
+
+K2 
+
+K1 
+
+K1 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
 Chapter 3 
 
 Static Testing 
@@ -6150,622 +5469,284 @@ v4.0
 
 © International Software Testing Qualifications Board 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
-X 
-
-K2 
-
-K1 
-
-K2 
-
-K2 
-
-K1 
-
-K1 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Page 66 of 74 
 
 2023-04-21 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 3.1.1 
 
@@ -6807,578 +5788,6 @@ Chapter 4
 
 Test Analysis and Design 
 
- 
-
-X 
-
-K1 
-
-K2 
-
-K2 
-
-K1 
-
-K2 
-
-K1 
-
-K2 
-
-K1 
-
-K2 
-
-K3 
-
-K3 
-
-K3 
-
-K3 
-
-K2 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Test Techniques Overview 
 
 Distinguish black-box, white-box and experience-based test techniques 
@@ -7417,24 +5826,341 @@ Explain statement testing
 
 v4.0  
 
+X 
+
+X 
+
+X 
+
+K1 
+
+K2 
+
+K2 
+
+K1 
+
+K2 
+
+K1 
+
+K2 
+
+K1 
+
+K2 
+
+K3 
+
+K3 
+
+K3 
+
+K3 
+
+K2 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
 © International Software Testing Qualifications Board 
 
 Page 67 of 74 
 
 2023-04-21 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 4.3.2 
 
@@ -7480,602 +6206,6 @@ Chapter 5
 
 Managing the Test Activities 
 
- 
-
- 
-
- 
-
- 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K2 
-
-K3 
-
-K2 
-
-K1 
-
-K2 
-
-K3 
-
-K3 
-
-K1 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
 Test Planning 
 
 Exemplify the purpose and content of a test plan 
@@ -8093,8 +6223,6 @@ Recall the concepts of the test pyramid
 Summarize the testing quadrants and their relationships with test levels and test types   K2 
 
 Risk Management 
-
- 
 
 5.1 
 
@@ -8116,22 +6244,357 @@ Risk Management
 
 v4.0  
 
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K2 
+
+K3 
+
+K2 
+
+K1 
+
+K2 
+
+K3 
+
+K3 
+
+K1 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
+X 
+
 © International Software Testing Qualifications Board 
 
 Page 68 of 74 
 
 2023-04-21 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 5.2.1 
 
@@ -8185,14 +6648,6 @@ Chapter 6
 
 Test Tools 
 
-Tool Support for Testing 
-
-Explain how different types of test tools support testing 
-
-Benefits and Risks of Test Automation 
-
-Recall the benefits and risks of test automation 
-
 6.1 
 
 6.1.1 
@@ -8201,47 +6656,13 @@ Recall the benefits and risks of test automation
 
 6.2.1 
 
- 
+Tool Support for Testing 
 
-v4.0  
+Explain how different types of test tools support testing 
 
-© International Software Testing Qualifications Board 
+Benefits and Risks of Test Automation 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+Recall the benefits and risks of test automation 
 
 K1 
 
@@ -8265,51 +6686,9 @@ K2
 
 K1 
 
- 
+X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+X 
 
 X 
 
@@ -8317,89 +6696,7 @@ X
 
 X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+X 
 
 X 
 
@@ -8413,105 +6710,13 @@ X
 
 X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+X 
 
 X 
 
 X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+X 
 
 X 
 
@@ -8521,136 +6726,6 @@ X
 
 X 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 X 
 
 X 
@@ -8659,91 +6734,250 @@ X
 
 X 
 
- 
+v4.0  
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-X 
-
-X 
-
-X 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+© International Software Testing Qualifications Board 
 
 Page 69 of 74 
 
 2023-04-21 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 10. Appendix C – Release Notes  
 
- 
-
 ISTQB® Foundation Syllabus v4.0 is a major update based on the Foundation Level syllabus (v3.1.1) and 
 the Agile Tester 2014 syllabus. For this reason, there are no detailed release notes per chapter and section. 
-However,  a  summary  of principal  changes  is  provided  below. Additionally,  in  a  separate  Release  Notes 
-document, ISTQB® provides traceability  between the learning  objectives (LO) in the version 3.1.1 of the 
-Foundation  Level Syllabus, 2014 version of the Agile Tester Syllabus,  and the learning objectives in  the 
+However, a summary  of principal changes is provided below. Additionally, in a separate Release Notes 
+document, ISTQB® provides traceability between the learning objectives (LO) in the version 3.1.1 of the 
+Foundation Level Syllabus, 2014 version of the Agile Tester Syllabus, and the learning objectives in  the 
 new Foundation Level v4.0 Syllabus, showing which LOs have been added, updated, or removed. 
 
 At the time the syllabus was written (2022-2023) more than one million people in more than 100 countries 
@@ -8754,8 +6988,8 @@ in respect of this heritage and to improve the views of hundreds of thousands mo
 quality that ISTQB® delivers to the global testing community. 
 
 In this version all LOs have been edited to make them atomic, and to create one-to-one traceability between 
-LOs  and  syllabus  sections,  thus  not having  content without also  having  a  LO.  The  goal  is  to  make  this 
-version easier to read, understand, learn, and translate, focusing on increasing  practical  usefulness and 
+LOs and syllabus sections, thus not having content without also having a  LO. The goal is  to  make  this 
+version easier to read, understand, learn, and translate, focusing on increasing practical usefulness and 
 the balance between knowledge and skills. 
 
 This major release has made the following changes: 
@@ -8806,17 +7040,14 @@ Page 70 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
-
- 
-
- 
 
 o  More focus on practices like: test-first approach (K1), shift-left (K2), retrospectives (K2) 
 
@@ -8842,7 +7073,6 @@ o  More focus on collaboration-based approach to testing: new K3 LO about using 
 derive test cases and two new K2 LOs about user stories and acceptance criteria 
 
 o  Decision testing and coverage replaced with branch testing and coverage (first, branch 
-
 coverage is more commonly used in practice; second, different standards define the 
 decision differently, as opposed to “branch”; third, this solves a subtle, but serious flaw 
 from the old FL2018 which claims that „100% decision coverage implies 100% statement 
@@ -8857,7 +7087,6 @@ o  Section on test strategies/approaches removed
 o  New K3 LO on estimation techniques for estimating the test effort 
 
 o  More focus on the well-known Agile-related concepts and tools in test management: 
-
 iteration and release planning (K1), test pyramid (K1), and testing quadrants (K2) 
 
 o  Section on risk management better structured by describing four main activities: risk 
@@ -8871,10 +7100,6 @@ o  Content on some test automation issues reduced as being too advanced for the
 foundation level – section on tools selection, performing pilot projects and introducing 
 tools into organization removed 
 
- 
-
- 
-
 v4.0  
 
 Page 71 of 74 
@@ -8883,13 +7108,15 @@ Page 71 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 11. 
 
@@ -8943,10 +7170,6 @@ continuous delivery, 26
 continuous improvement, 28 
 continuous integration, 26 
 continuous testing, 19 
-
- 
-
- 
 
 control directives, 20 
 control flow graph, 43 
@@ -9003,13 +7226,13 @@ Page 72 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 hot fix, 31 
 impact, 52 
@@ -9062,10 +7285,6 @@ review leader, 36
 review process, 35 
 review techniques, 33 
 reviewer, 36 
-
- 
-
- 
 
 risk, 15, 52, 55 
 risk analysis, 52 
@@ -9127,13 +7346,13 @@ Page 73 of 74
 
 © International Software Testing Qualifications Board 
 
- 
-Certified Tester 
+ 
+ 
+ 
+ 
+ 
+Certified Tester 
 Foundation Level 
-
- 
-
- 
 
 test charter, 20, 44 
 test completion, 19, 54 
@@ -9169,11 +7388,6 @@ test pyramid, 50
 test report, 54 
 test result, 19, 56 
 test schedule, 20 
- 
-
- 
-
- 
 
 test script, 19, 20 
 test status, 55 
@@ -9218,4 +7432,10 @@ Page 74 of 74
 
 © International Software Testing Qualifications Board 
 
+ 
+ 
+ 
+ 
+ 
+ 
 
