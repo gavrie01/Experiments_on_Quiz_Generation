@@ -15,11 +15,12 @@ Preprocessing:
 #For each word (current word) in the list, check if it exists in the model dictionary. If not, add it as a key with an empty list as the value.
 #Append the next word to the list of possible next words in the model for the current word.
 #Continue this process until you have processed the entire list of words.
-Normalize Probabilities:
+#Normalize Probabilities:
 
-After building the model, go through each key in the dictionary (each word).
-For each word, create a dictionary that represents the possible next words as keys and their transition probabilities as values.
-Normalize the transition probabilities so that they sum up to 1. You can divide each probability by the sum of all probabilities for that word.
+#After building the model, go through each key in the dictionary (each word).
+#For each word, create a dictionary that represents the possible next words as keys and their transition probabilities as values.
+#Normalize the transition probabilities so that they sum up to 1. You can divide each probability by the sum of all probabilities for that word.
+
 Generate Text from the Model:
 
 Choose a starting word from your corpus. You can select it randomly or specify one to start with.

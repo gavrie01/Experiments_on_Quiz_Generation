@@ -8,13 +8,14 @@ from nltk.corpus import stopwords
 import nltk
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from collections import defaultdict
 
-#------------------
-#--------------------------
+
+#--------------------------------------------
 clear = lambda: os.system('cls') # on Windows System
 os.system('clear') # on Linux System
 clear()
-
+#---------------------------------------------
 # Load the text from a file
 with open('data/DG.txt', encoding='UTF-8') as file:
       text = file.read()
@@ -47,16 +48,29 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.show()
 
-mc_list = []
-mc_dict = {}
+# Initialize the defaultdict with dictionaries as default values
+mc_dict = defaultdict(lambda: defaultdict(int))
+# Populate the mc_dict
 for i in range(len(words) - 1):
     word = words[i]
-    next_word = words[i+1]
-    if word in mc_dict:
-        mc_dict[word].append(next_word)
-        continue
-    else:
-         mc_dict[word] = [next_word]
-print(mc_dict)
+    next_word = words[i + 1]
+    mc_dict[word][next_word] += 1
 
-      
+# Calculate transition probabilities within mc_dict
+for word, next_word_counts in mc_dict.items():
+    total_transitions = sum(next_word_counts.values())
+
+    for next_word, count in next_word_counts.items():
+        mc_dict[word][next_word] = count / total_transitions
+
+# Convert the defaultdict to a regular dictionary if needed
+mc_dict = dict(mc_dict)
+
+
+for k in list(mc_dict.keys()):
+    if k in ('e', 'b', 'pg', 'ut', 'irs', '•', 'f', 'c', 'facility', 'wwwgutenbergorgdonate'):
+          mc_dict.pop(k)    
+for key, value in mc_dict.items():
+    print(key, ':', value) 
+
+ 
