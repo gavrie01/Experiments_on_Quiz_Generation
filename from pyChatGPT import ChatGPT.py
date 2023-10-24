@@ -9,7 +9,7 @@ import nltk
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from collections import defaultdict
-
+import random
 
 #--------------------------------------------
 clear = lambda: os.system('cls') # on Windows System
@@ -73,4 +73,10 @@ for k in list(mc_dict.keys()):
 for key, value in mc_dict.items():
     print(key, ':', value) 
 
- 
+random_word = random.choice(list(mc_dict.keys()))
+print("Throw a random word from corpus to start:", random_word) 
+generated_text = [] 
+maximum_generated_text_length = 50 # 50 words
+generated_text.append(random_word)
+while len(generated_text) < maximum_generated_text_length:
+     
